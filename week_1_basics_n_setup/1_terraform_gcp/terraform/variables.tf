@@ -4,11 +4,19 @@ locals {
 
 variable "project" {
   description = "Your GCP Project ID"
+  project = "focused-brace-374920"
+  type = string
 }
 
 variable "region" {
   description = "Region for GCP resources. Choose as per your location: https://cloud.google.com/about/locations"
-  default = "europe-west6"
+  default = "us-central1"
+  type = string
+}
+
+variable "zone" {
+  description = "Zone for GCP resources. Choose as per your location: https://cloud.google.com/about/locations"
+  default = "us-central1-c"
   type = string
 }
 
