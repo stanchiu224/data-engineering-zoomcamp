@@ -3,9 +3,7 @@ locals {
 }
 
 variable "project" {
-  description = "Your GCP Project ID"
-  project = "focused-brace-374920"
-  type = string
+  description = "focused-brace-374920"
 }
 
 variable "region" {
